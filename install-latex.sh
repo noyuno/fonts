@@ -50,6 +50,7 @@ install $tfm/inconsolata tfm/*.tfm
 install $type1/inconsolata type1/*.pfb
 install $sty/inconsolata tex/*
 
+sudo mkdir -p /usr/share/texmf/web2c
 sudo bash -c "echo 'Map zi4.map' >> /usr/share/texmf/web2c/updmap.cfg"
 
 cd ../BXinconsolata
